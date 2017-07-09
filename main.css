@@ -7,7 +7,9 @@ h1, h2, h3, h4 {
 }
 
 ol {
-
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
 }
 
 ul{
@@ -21,6 +23,7 @@ a{
 .hero {
   background-color: #3f51b5;
   color: #fff;
+  margin-bottom: 40px;
   padding: 20px 0px;
   text-align: center;
 }
@@ -29,4 +32,20 @@ a{
   font-size: 36px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.news-item{
+  border-bottom: 1px solid #b6b6b6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.news-link{
+  color: #3f51b5;
+  font-size: 24px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 800px;
 }
